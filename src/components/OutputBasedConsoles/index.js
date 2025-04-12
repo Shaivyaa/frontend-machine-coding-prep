@@ -1,0 +1,16 @@
+// console.log(2 < 7);
+// console.log(22 > "9");
+// console.log(2 > "abc");
+// console.log("2" === "12".length);
+// console.log(55 && 3);
+// console.log(4 || 3);
+// console.log(+"5" + 5);
+// console.log([] + {});
+// console.log({} + []);
+// console.log(2 == "2" && 2 === "2");
+// console.log(!!"false" === !!"true");
+// console.log(null || (undefined && "Hello"));
+// console.log(typeof NaN + " is NaN");
+// console.log(("b" + "a" + +"a" + "a").toLowerCase());
+// console.log([] == 0 && [] === 0);
+// console.log([1, 2] + [3, 4]);

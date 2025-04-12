@@ -1,0 +1,63 @@
+.tabs_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0 15px;
+}
+
+.tabs {
+    padding: 15px;
+    border: 2px solid black;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tabs_body {
+    padding: 15px;
+    /* border: 2px solid black; */
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+.input_field {
+    display: flex;
+    text-align: left;
+    gap: 20px;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.checkbox_field {
+    display: flex;
+    text-align: left;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_container {
+    margin: 20px 0 0 0;
+
+    button {
+       padding: 10px 30px; 
+       border: none;
+       outline: none;
+       background-color: transparent;
+       border: 1px solid blue;
+       cursor: pointer;
+       color: blue;
+    }
+}
+
+.errors {
+    color: red;
+    font-size: 12px;
+}
