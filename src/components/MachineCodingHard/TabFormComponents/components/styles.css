@@ -15,7 +15,7 @@
 
 .tabs_body {
     padding: 15px;
-    /* border: 2px solid black; */
+    border-bottom: 2px solid black;
     font-size: 20px;
 }
 

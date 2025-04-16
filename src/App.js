@@ -23,6 +23,7 @@ import OTPValidate from "./components/MachineCodingHard/OTPValidate";
 // import CustomHooks from "./components/CustomHooks/useLocalStorageHook/app";
 import ProgressBar from "./components/MachineCodingHard/ProgressBar";
 import TabFormComponents from "./components/MachineCodingHard/TabFormComponents";
+import Pagination from "./components/MachineCodingHard/Pagination";
 
 export default function App() {
   return (
@@ -51,6 +52,7 @@ export default function App() {
       <ProgressBar />
       <OTPValidate />
       <TabFormComponents />
+      <Pagination />
     </>
   );
 }
