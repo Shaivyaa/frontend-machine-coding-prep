@@ -24,6 +24,7 @@ import OTPValidate from "./components/MachineCodingHard/OTPValidate";
 import ProgressBar from "./components/MachineCodingHard/ProgressBar";
 import TabFormComponents from "./components/MachineCodingHard/TabFormComponents";
 import Pagination from "./components/MachineCodingHard/Pagination";
+import AutoCompleteSearchBar from "./components/MachineCodingHard/AutoCompleteSearchBar";
 
 export default function App() {
   return (
@@ -53,6 +54,7 @@ export default function App() {
       <OTPValidate />
       <TabFormComponents />
       <Pagination />
+      <AutoCompleteSearchBar />
     </>
   );
 }
