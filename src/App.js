@@ -25,6 +25,7 @@ import ProgressBar from "./components/MachineCodingHard/ProgressBar";
 import TabFormComponents from "./components/MachineCodingHard/TabFormComponents";
 import Pagination from "./components/MachineCodingHard/Pagination";
 import AutoCompleteSearchBar from "./components/MachineCodingHard/AutoCompleteSearchBar";
+import FileExplorer from "./components/MachineCodingHard/FileExplorer";
 
 export default function App() {
   return (
@@ -55,6 +56,7 @@ export default function App() {
       <TabFormComponents />
       <Pagination />
       <AutoCompleteSearchBar />
+      <FileExplorer />
     </>
   );
 }

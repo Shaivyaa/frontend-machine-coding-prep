@@ -1,0 +1,41 @@
+.file_explorer_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    padding: 50px 0;
+}
+
+.file_explorer_container {
+    margin-left: 20px;
+    width: 100%;
+    max-width: 500px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    align-items: start;
+    font-size: 20px;
+}
+
+.expand_icon {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.add_folder_icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.delete_folder_icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
