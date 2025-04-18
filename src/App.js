@@ -26,6 +26,7 @@ import TabFormComponents from "./components/MachineCodingHard/TabFormComponents"
 import Pagination from "./components/MachineCodingHard/Pagination";
 import AutoCompleteSearchBar from "./components/MachineCodingHard/AutoCompleteSearchBar";
 import FileExplorer from "./components/MachineCodingHard/FileExplorer";
+import NestedCheckBoxes from "./components/MachineCodingHard/NestedCheckBoxes";
 
 export default function App() {
   return (
@@ -57,6 +58,7 @@ export default function App() {
       <Pagination />
       <AutoCompleteSearchBar />
       <FileExplorer />
+      <NestedCheckBoxes />
     </>
   );
 }

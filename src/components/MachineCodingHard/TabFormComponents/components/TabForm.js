@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Profile from "./Profile";
 import Interest from "./Interest";
 import Settings from "./Settings";
-import "./styles.css";
+import "../styles.css";
 
 export default function TabForm() {
   const [activeTab, setActiveTab] = useState(0);
