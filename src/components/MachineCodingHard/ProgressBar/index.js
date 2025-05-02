@@ -38,7 +38,10 @@ export default function index() {
   return (
     <>
       <div className="container">
-        <div style={{ fontSize: "40px", fontWeight: "bold", padding: "15px " }}>
+        <div
+          className="font-family"
+          style={{ fontSize: "40px", fontWeight: "bold", padding: "15px " }}
+        >
           Progress Bar
         </div>
         {bars.map((index) => (

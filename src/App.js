@@ -1,8 +1,8 @@
 import React from "react";
-import UseReducerHook from "./components/ReactHooks/UseReducerHook/UseReducerHook.tsx";
-import UseContextHook from "./components/ReactHooks/UseContextHook/UseContextHook.jsx";
-import UseRefHook from "./components/ReactHooks/UseRefHook/UseRefHook.jsx";
-// import OTPValidate from "./components/MachineCodingHard/OTPValidate";
+// import UseReducerHook from "./components/ReactHooks/UseReducerHook/UseReducerHook.tsx";
+// import UseContextHook from "./components/ReactHooks/UseContextHook/UseContextHook.jsx";
+// import UseRefHook from "./components/ReactHooks/UseRefHook/UseRefHook.jsx";
+import OTPValidate from "./components/MachineCodingHard/OTPValidate";
 // import Gridbox from "./components/Gridbox";
 // import ResponsiveNavwithHamBurger from "./components/ResponsiveNavwithHamBurger";
 // import ReactForm from "./components/ReactForm";
@@ -24,12 +24,14 @@ import UseRefHook from "./components/ReactHooks/UseRefHook/UseRefHook.jsx";
 // import InfiniteScrolling from "./components/InfiniteScrolling";
 // import ColorChangingBox from "./components/ColorChangingBox";
 // import CustomHooks from "./components/CustomHooks/useLocalStorageHook/app";
-// import ProgressBar from "./components/MachineCodingHard/ProgressBar";
-// import TabFormComponents from "./components/MachineCodingHard/TabFormComponents";
-// import Pagination from "./components/MachineCodingHard/Pagination";
-// import AutoCompleteSearchBar from "./components/MachineCodingHard/AutoCompleteSearchBar";
-// import FileExplorer from "./components/MachineCodingHard/FileExplorer";
-// import NestedCheckBoxes from "./components/MachineCodingHard/NestedCheckBoxes";
+import ProgressBar from "./components/MachineCodingHard/ProgressBar";
+import TabFormComponents from "./components/MachineCodingHard/TabFormComponents";
+import Pagination from "./components/MachineCodingHard/Pagination";
+import AutoCompleteSearchBar from "./components/MachineCodingHard/AutoCompleteSearchBar";
+import FileExplorer from "./components/MachineCodingHard/FileExplorer";
+import NestedCheckBoxes from "./components/MachineCodingHard/NestedCheckBoxes";
+import Todo from "./components/Todo";
+import Timer from "./components/Timer";
 
 export default function App() {
   return (
@@ -55,16 +57,18 @@ export default function App() {
       {/* <UseCallback /> */}
       {/* <APIFetch /> */}
       {/* <CustomHooks /> */}
-      {/* <ProgressBar />
+      <ProgressBar />
       <OTPValidate />
       <TabFormComponents />
       <Pagination />
       <AutoCompleteSearchBar />
       <FileExplorer />
-      <NestedCheckBoxes /> */}
-      <UseReducerHook />
+      <NestedCheckBoxes />
+      {/* <UseReducerHook />
       <UseContextHook />
-      <UseRefHook />
+      <UseRefHook /> */}
+      <Todo />
+      <Timer />
     </>
   );
 }

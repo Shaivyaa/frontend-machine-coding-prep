@@ -1,24 +1,29 @@
 .container {
-    width: 100%;
-    border: 2px solid black;
-    padding: 50px 0;
-    margin:  0 auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
+  width: 100%;
+  border: 2px solid black;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .outer {
-    margin: 15px;
-    border: 2px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-    outline: none;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+  outline: none;
 }
 
 .inner {
-    background-color: rgb(240, 133, 231);
-    text-align: right;
-    transition: 0.5s ease-in;
+  background-color: rgb(240, 133, 231);
+  text-align: right;
+  transition: 0.5s ease-in;
+}
+
+.font-family {
+  font-family: "the-seasons", sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
